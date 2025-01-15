@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+  img {
+    width: 300px;
+    height: 200px;
+
+  }
+</style>
+
+<style>
+        .box {
+            border: 2px solid black; /* Creates the border */
+            padding: 20px;          /* Adds space inside the box */
+            margin: 20px;           /* Adds space outside the box */
+            width: 500px;           /* Sets the box width */
+            text-align: center;     /* Centers the text inside the box */
+        }
+
+body {
+            background-image: url('https://media.istockphoto.com/id/821760914/vector/pastel-multi-color-gradient-vector-background-simple-form-and-blend-with-copy-space.jpg?s=612x612&w=0&k=20&c=adwrMs3MkPLXMb69AYSoMpnCfLSAb_D3PCQRGGXiM5g='); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black; /* Optional: Ensure text is readable on the background */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+    </style>
+
+
+        <header>
+        <h1 style="text-align:center;font-size:40px;"><u>"gzip" command in LINUX</u></h1>
+
+<p style="font-size:20px;"> The gzip command in Linux is a file compression utility that reduces the size of files using the GNU zip algorithm. Compressed files are easier to store and transfer, and their names typically include a .gz extension.</p>
+
+<h1 style="font-size:25px;"><u>Syntax:</u></h1>
+<div class="box">
+<h2 style="font-size:20px;"> gzip [options] [file] </h2>
+</div>
+<p style="font-size:20px;"> where:<br>
+<ul style="font-size:20px;">
+<li>[options] : Optional flags that modify the behavior of the command. </li>
+<li>[file] :The name of the file you want to compress or decompress. This can be a single file (e.g., file.txt) or multiple files (e.g., file1.txt file2.txt).</li></ul>
+
+<h1 style="font-size:25px;"><u>Purpose:</u></h1>
+<ul>
+<li>File Compression: Reduces the size of files to save disk space.</li>
+<li>Efficient File Transfers: Smaller file sizes make uploading and downloading over a network faster.</li>
+<li>Backup and Archiving: Often used alongside tar to compress archived data.</li>
+<li>Ease of Use: Simple syntax and fast compression compared to other tools.</li></ul>
+
+<h3 style="font-size:25px;"><u>Applications:</u></h3>
+<p style="font-size:20px;">Some applications of "gzip" command are:</p>
+<ol style="font-size:20px;">
+<li>Compressing Files</li>
+<ul>
+<li>Compress a single file to reduce its size</li>
+</ul>
+
+<li>Decompressing Files</li>
+<ul>
+<li>Decompress a .gz file to restore the original</li>
+</ul>
+
+<li>Viewing Compressed Files Without Extracting</li>
+<ul>
+<li>Use zcat to display the contents of a compressed file:</li>
+</li>Alternatively, use zless or zmore to view the contents:</li>
+</ul>
+
+<li>Compressing Files Recursively</li>
+<ul>
+<li>Compress all files in a directory recursively:</li>
+
+</ul>
+</ol>
+
+<h1 style="font-size:25px;" >Commonly used options</h1>
+    <style>
+        table {
+            width: 50%;
+            border: 1px solid black; /* Single border for the table */
+            border-collapse: collapse; /* Remove extra spacing between cells */
+            margin: 20px auto; /* Center the table */
+        }
+        th, td {
+            border: 1px solid black; /* Borders for individual cells */
+            padding: 10px; /* Space inside the cells */
+            text-align: left; /* Align text to the left */
+        }
+        th {
+            background-color: #f2f2f2; /* Light gray background for headers */
+        }
+    </style>
+</head>
+<body>
+        <table>
+        <tr>
+            <th>Option</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>-d</td>
+            <td>Decompress a file.</td>
+        </tr>
+        <tr>
+            <td>-k</td>
+            <td>Keep the original file after compression.</td>
+        </tr>
+        <tr>
+            <td>-v</td>
+            <td>Show detailed output (compression ratio and size).</td>
+        </tr>
+        <tr>
+            <td>-r</td>
+            <td>Compress all files in a directory recursively.</td>
+        </tr>
+        <tr>
+            <td>-t</td>
+            <td>Test the integrity of a compressed file.</td>
+        </tr>
+	<tr>
+            <td>-#</td>
+            <td>Set compression level (1 = fastest, 9 = best compression).</td>
+        </tr>
+	
+
+
+    </table>
+</header>
+<br>
+
+<p style="font-size:20px;">Now have a look at an <b>example:</b></p>
+<br>
+<br>
+<img src="gzip.png">
+
+    </body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        img {
+            width: 300px;
+            height: 200px;
+        }
+
+        body {
+            background-image: url('https://wallpapers.com/images/high/light-color-gradient-background-p66zupwivsc59vdi.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black; /* Ensure text is readable */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .box {
+            border: 2px solid black;
+            padding: 20px;
+            margin: 20px;
+            width: 500px;
+            text-align: center;
+        }
+
+        table {
+            width: 60%;
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.8); /* Light translucent background for readability */
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for contrast */
+            color: white; /* White text to contrast with the header background */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align:center;font-size:40px;"><u>"gunzip" command in LINUX</u></h1>
+
+        <p style="font-size:20px;">
+            The gunzip command is a decompression utility used to restore files that were compressed using the gzip command. 
+            It removes the .gz extension from the compressed file and regenerates the original file.
+        </p>
+
+        <h1 style="font-size:25px;"><u>Syntax:</u></h1>
+        <div class="box">
+            <h2 style="font-size:20px;"> gunzip [options] [file.gz] </h2>
+        </div>
+
+
+<h2 style="font-size:25px;"><u>Purpose:</u></h2>
+<ul style="font-size:20px;">
+<li>The primary purpose of gunzip is to restore a file to its original, uncompressed state after it has been compressed with the gzip tool.</li> 
+<li>It allows users to reduce storage requirements temporarily and transmit data more efficiently.</li>
+</ul>
+
+<h3 style="font-size:25px;"><u>Applications:</u></h3>
+<p style="font-size:20px;">Some applications of "gunzip" command are:</p>
+<ol style="font-size:20px;">
+<li>Decompression of Files</li>
+<ul>
+<li>Used to decompress .gz files for viewing or further processing.</li>
+</ul>
+
+<li>Batch Decompression</li>
+<ul>
+<li>Handles multiple files at once</li>
+</ul>
+
+<li>Integration with Pipes</li>
+<ul>
+<li>Can be used with other commands via pipes for on-the-fly decompression</li>
+</ul>
+
+<li>Extracting Compressed Logs</li>
+<ul>
+<li>Often used in system administration to decompress and analyze compressed log files</li>
+</ul></ol>
+
+
+        <h1>Commonly used options</h1>
+        <table>
+            <tr>
+                <th>Option</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>-c</td>
+                <td>Decompress and write output to standard output (stdout) without creating a file.</td>
+            </tr>
+            <tr>
+                <td>-k</td>
+                <td>Keep the original compressed .gz file after decompression.</td>
+            </tr>
+            <tr>
+                <td>-f</td>
+                <td>Force decompression, even if a file with the same name already exists.</td>
+            </tr>
+            <tr>
+                <td>-r</td>
+                <td>Recursively decompress files in directories.</td>
+            </tr>
+            <tr>
+                <td>-v</td>
+                <td>Display verbose output, showing details during decompression.</td>
+            </tr>
+        </table>
+</header>
+<br>
+
+<p style="font-size:20px;">Now have a look at an <b>example:</b></p>
+<br>
+<br>
+<img src="gunzip.png">
+
+    </body>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+  img {
+    width: 300px;
+    height: 200px;
+
+  }
+</style>
+
+<style>
+        .box {
+            border: 2px solid black; /* Creates the border */
+            padding: 20px;          /* Adds space inside the box */
+            margin: 20px;           /* Adds space outside the box */
+            width: 500px;           /* Sets the box width */
+            text-align: center;     /* Centers the text inside the box */
+        }
+body {
+            background-image: url('https://static.vecteezy.com/system/resources/thumbnails/015/278/060/small_2x/trendy-soft-retro-gradient-background-design-minimalistic-soft-gradient-in-pastel-colors-elegant-soft-blur-texture-colorful-mesh-gradient-background-vector.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black; /* Optional: Ensure text is readable on the background */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+    </style>
+
+
+        <header>
+        <h1 style="text-align:center;font-size:40px;"><u>"tar" command in LINUX</u></h1>
+
+<p style="font-size:20px;"> The tar (short for tape archive) command is a utility used to create, extract, and manipulate archive files. It collects multiple files and directories into a single file, often with optional compression, to facilitate backup, transfer, or storage.
+
+<br>
+<br>
+
+<h1 style="font-size:25px;"><u>Syntax:</u></h1>
+<div class="box">
+<h2 style="font-size:20px;"> tar [options] [archive_name] [file_or_directory] </h2>
+</div>
+<p style="font-size:20px;"> where:<br>
+<ul style="font-size:20px;">
+<li>[options] specifies what action to perform and any additional flags to modify behavior.</li>
+<li>[archive_name] specifies the name of the archive file (e.g., archive.tar, backup.tar.gz).</li>
+<li>[file_or_directory] specifies the files or directories to include in the archive or extract from it.</li></ul>
+
+<h2 style="font-size:25px;"><u>Purpose:</u></h2>
+<ul style="font-size:20px;">
+<li>Data Archival: Combines multiple files into a single archive file for easy management.</li>
+<li>Backup Creation: Saves copies of files and directories for restoration if data is lost.</li>
+<li>File Transfer: Simplifies sharing and transferring multiple files over a network.</li>
+<li>Space Saving: Compresses data to reduce disk usage.</li>
+<li>Preservation of File Metadata: Retains file permissions, ownership, and timestamps.</li></ul>
+
+<h3 style="font-size:25px;"><u>Applications:</u></h3>
+<p style="font-size:20px;">Some applications of "tar" command are:</p>
+<ol style="font-size:20px;">
+<li>Creating Archive Files</li>
+<ul>
+<li>Create an Archive Without Compression:
+Archive all files in a directory into a .tar file.</li>
+</ul>
+
+<li>Extracting Archive Files</li>
+<ul>
+<li>Extract a .tar Archive:</li>
+<li>Extract to a Specific Directory:</li>
+</ul>
+
+<li>Compressing and Archiving</li>
+<ul>
+<li>Create a Gzipped Archive:</li>
+<li>Extract a Gzipped Archive:</li>
+</ul>
+
+<li>Archiving and Compressing Incrementally</li>
+<ul>
+<li>Add Files to an Existing Archive:</li>
+<li>Update Only Modified Files in an Archive:</li>
+</ul></ol>
+
+
+<h1 style="font-size:25px;">Commonly used options</h1>
+    <style>
+        table {
+            width: 40%;
+            border: 1px solid black; /* Single border for the table */
+            border-collapse: collapse; /* Remove extra spacing between cells */
+            margin: 20px auto; /* Center the table */
+        }
+        th, td {
+            border: 1px solid black; /* Borders for individual cells */
+            padding: 10px; /* Space inside the cells */
+            text-align: left; /* Align text to the left */
+        }
+        th {
+            background-color: #f2f2f2; /* Light gray background for headers */
+        }
+    </style>
+</head>
+<body>
+        <table>
+        <tr>
+            <th>Option</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>-c</td>
+            <td>Create a new archive.</td>
+        </tr>
+        <tr>
+            <td>-x</td>
+            <td>Extract files from an archive.</td>
+        </tr>
+        <tr>
+            <td>-v</td>
+            <td>Display verbose output (show files being processed).</td>
+        </tr>
+        <tr>
+            <td>-f</td>
+            <td>Specify the archive file name.</td>
+        </tr>
+        <tr>
+            <td>-z</td>
+            <td>Compress the archive with gzip.</td>
+        </tr>
+	<tr>
+            <td>-j</td>
+            <td>Compress the archive with bzip2.</td>
+        </tr>
+	<tr>
+            <td>-t</td>
+            <td>List the contents of an archive</td>
+        </tr>
+
+
+    </table>
+</header>
+<br>
+<br>
+<p style="font-size:20px;">Now have a look at an <b>example:</b></p>
+<br>
+
+<img src="tar.png">
+
+    </body>
+</html>

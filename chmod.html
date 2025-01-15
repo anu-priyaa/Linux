@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+  img {
+    width: 300px;
+    height: 200px;
+
+  }
+</style>
+
+<style>
+        .box {
+            border: 2px solid black; /* Creates the border */
+            padding: 20px;          /* Adds space inside the box */
+            margin: 20px;           /* Adds space outside the box */
+            width: 500px;           /* Sets the box width */
+            text-align: center;     /* Centers the text inside the box */
+        }
+
+body {
+            background-image: url('https://w0.peakpx.com/wallpaper/873/337/HD-wallpaper-colorful-background-ultra-aero-colorful-beautiful-yellow-spring-green-abstract-color-white-design-light-background-colors-bright-colourful-shades-easter-vivid-soft-blur-gradient.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black; /* Optional: Ensure text is readable on the background */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+    </style>
+
+
+        <header>
+        <h1 style="text-align:center;font-size:40px;"><u>"chmod" command in LINUX</u></h1>
+
+<p style="font-size:20px;"> The chmod (short for change mode) command is used to modify the permissions of files and directories in Linux. It controls who can read, write, or execute a file or directory.
+<h1 style="font-size:25px;"><u>Syntax:</u></h1>
+<div class="box">
+<h2 style="font-size:20px;"> chmod [options] mode file </h2>
+</div>
+<p style="font-size:20px;"> where:<br>
+<ul style="font-size:20px;">
+<li>[options]: Optional flags to modify the behavior of the chmod command. Common options include:<ul>
+<li>-R: Apply changes recursively to all files and subdirectories within a directory.</li>
+<li>-v: Verbose mode; displays a message for each file processed.</li>
+<li>-c: Like -v, but only displays changes made.</li></ul>
+
+<li>mode: Specifies the new permission settings for the file or directory. It can be written in:</li><ul>
+<li>Numeric (octal) format: A three- or four-digit number representing permissions.
+Example: 755</li>
+<li>Symbolic format: A combination of symbols to add, remove, or set permissions.
+Example: u+rwx, g-w, o+x</li></ul>
+
+<li>file: The name of the file or directory for which permissions are being changed. You can specify a single file or multiple files.</li></ul>
+
+<h1 style="font-size:25px;"><u>Purpose:</u></h1>
+<ul style="font-size:20px;">
+<li>To manage file access permissions.</li>
+<li>To restrict or grant file access to users, groups, or others.</li>
+<li>To ensure security by limiting unauthorized access.</li></ul>
+
+<h3 style="font-size:25px;"><u>Applications:</u></h3>
+<p style="font-size:20px;">Some applications of "chmod" command are:</p>
+<ol style="font-size:20px;">
+<li>Securing Files and Directories</li>
+<ul>
+<li>Restrict sensitive file access: Ensure only the file owner can read and modify confidential files.</li>
+</ul>
+
+<li>Allowing Execution of Scripts and Programs</li>
+<ul>
+<li>Grant execute permission to scripts:</li>
+<li>Set executable permissions for compiled programs</li>
+</ul>
+
+<li>Sharing Files in Multi-User Environments</li>
+<ul>
+<li>Grant group access to shared files:</li>
+<li>Set read-only access for others:</li>
+</ul>
+
+<li>Web Development and Hosting</li>
+<ul>
+<li>Set appropriate permissions for web files to avoid unauthorized modifications:</li>
+<li>Make directories accessible to the web server:</li>
+</ul>
+
+<li>Managing Temporary or Backup Files</li>
+<ul>
+<li>Prevent accidental modifications or deletions</li>
+</ul>
+</ol>
+</header>
+<br>
+
+<p style="font-size:20px;">Now have a look at an <b>example:</b></p>
+<br>
+<br>
+
+<img src="chmod.png">
+
+
+    </body>
+</html>

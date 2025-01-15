@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+  img {
+    width: 450px;
+    height: 200px;
+
+  }
+</style>
+
+<style>
+        .box {
+            border: 2px solid black; /* Creates the border */
+            padding: 20px;          /* Adds space inside the box */
+            margin: 20px;           /* Adds space outside the box */
+            width: 500px;           /* Sets the box width */
+            text-align: center;     /* Centers the text inside the box */
+        }
+
+body {
+            background-image: url('https://i.pinimg.com/474x/7d/34/dd/7d34dd0d69d99c3936e9998221f61702.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black; /* Optional: Ensure text is readable on the background */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+    </style>
+
+
+        <header>
+        <h1 style="text-align:center;font-size:40px;"><u>"chgrp" command in LINUX</u></h1>
+
+<p style="font-size:20px;"> The chgrp (short for change group) command is used to change the group ownership of files and directories in Linux. It allows administrators and users with appropriate permissions to assign a file or directory to a specific group.
+<h1 style="font-size:25px;"><u>Syntax:</u></h1>
+<div class="box">
+<h2 style="font-size:20px;"> chgrp [options] group file </h2>
+</div>
+<p style="font-size:20px;"> where:<br>
+<ul style="font-size:20px;">
+<li>group: The name or ID of the group to which the file or directory will belong.</li>
+<li>file: The file or directory whose group ownership is to be changed.</li></ul>
+<p style="font-size:20px;"><b>Common Options:</b></p>
+<ul style="font-size:20px;">
+<li>-R: Recursively change the group ownership of a directory and all its contents.</li>
+<li>-v: Verbose mode; display information about each file whose group is changed.</li>
+<li>--reference=file_name: Apply the group ownership of a referenced file to the target file.</li></ul>
+
+
+<h1 style="font-size:25px;"><u>Purpose:</u></h1>
+<ul style="font-size:20px;">
+<li>To assign a specific group ownership to a file or directory.</li>
+<li>To manage access and permissions for files in multi-user or team environments by associating them with the correct group.</li></ul>
+
+<h3 style="font-size:25px;"><u>Applications:</u></h3>
+<p style="font-size:20px;">Some applications of "chgrp" command are:</p>
+<ol style="font-size:20px;">
+<li>File Sharing in Team Environments:</li>
+<ul>
+<li>Assign a common group to shared files so that all team members have the same access level.</li>
+</ul>
+
+<li>Managing Permissions for Project Directories:</li>
+<ul>
+<li>In collaborative projects, ensure that all files in a project directory belong to the project group.</li>
+</ul>
+
+<li>Web Development:</li>
+<ul>
+<li>Change the group ownership of web server files to the web server's group (e.g., www-data) for proper access and security.</li>
+</ul>
+
+<li>System Administration:</li>
+<ul>
+<li>Set group ownership for configuration files to restrict access to authorized users only</li>
+</ul>
+
+<li>Securing Sensitive Data:</li>
+<ul>
+<li>Assign sensitive files to specific groups to control access</li>
+</ul>
+</ol>
+
+
+</header>
+<p style="font-size:20px;">Now have a look at an <b>example:</b></p>
+</header>
+<br>
+
+<img src="chgrp.png">
+
+    </body>
+</body>
+
+    </body>
+</html>

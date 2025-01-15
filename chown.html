@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+  img {
+    width: 400px;
+    height: 200px;
+
+  }
+</style>
+
+<style>
+        .box {
+            border: 2px solid black; /* Creates the border */
+            padding: 20px;          /* Adds space inside the box */
+            margin: 20px;           /* Adds space outside the box */
+            width: 500px;           /* Sets the box width */
+            text-align: center;     /* Centers the text inside the box */
+        }
+
+body {
+            background-image: url('https://w0.peakpx.com/wallpaper/47/1008/HD-wallpaper-colorful-background-ultra-aero-colorful-beautiful-yellow-green-abstract-color-design-light-background-colors-bright-colourful-shades-vivid-pastel-soft-blur-gradient-pale-8k-lightcolored.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black; /* Optional: Ensure text is readable on the background */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+    </style>
+
+
+        <header>
+        <h1 style="text-align:center;font-size:40px;"><u>"chown" command in LINUX</u></h1>
+
+<p style="font-size:20px;"> The chown (short for change ownership) command is used to change the ownership of files and directories in Linux. It allows you to assign a specific user and/or group as the owner of a file or directory.
+
+
+<h1 style="font-size:25px;"><u>Syntax:</u></h1>
+<div class="box">
+<h2 style="font-size:20px;">chown [options] [user][:group] file</h2>
+</div>
+<p style="font-size:20px;"> where:<br>
+<ul style="font-size:20px;">
+<li>user: The new owner (username or user ID).</li>
+<li>group: The new group (group name or group ID).</li>
+<li>file: The file or directory whose ownership is being changed.</li></ul>
+<p style="font-size:20px;">Common Options:</p>
+<ul style="font-size:20px;">
+<li>-R: Recursively change ownership for all files and subdirectories.</li>
+<li>-v: Verbose output, showing files whose ownership is changed.</li>
+<li>--reference=file_name: Apply ownership of the referenced file to the target file.</li></ul>
+
+
+<h1 style="font-size:25px;"><u>Purpose:</u></h1>
+<ul style="font-size:20px;">
+<li>To change the user ownership of a file or directory.</li>
+<li>To change the group ownership of a file or directory.</li>
+<li>To manage file ownership in multi-user environments.</li>
+<li>To ensure security and proper access control by assigning appropriate owners.</li></ul>
+
+<h3 style="font-size:25px;"><u>Applications:</u></h3>
+<p style="font-size:20px;">Some applications of "chown" command are:</p>
+<ol style="font-size:20px;">
+<li>Assign Ownership After File Transfer:</li>
+<ul>
+<li>When files are copied or transferred between systems, they may retain the original ownership. Use chown to assign ownership to the correct user.</li>
+
+</ul>
+
+<li>Set Ownership for Shared Directories:</li>
+<ul>
+<li>In team environments, assign group ownership to shared directories for easier collaboration.</li>
+</ul>
+
+<li>Manage System Files and Services:</li>
+<ul>
+<li>Correct ownership of system files is critical for services to function properly</li>
+</ul>
+
+<li>Secure Sensitive Files:</li>
+<ul>
+<li>Assign ownership to a specific user to restrict access.</li>
+</ul>
+
+<li>Web Server Configuration:</li>
+<ul>
+<li>Change ownership of web directories to the web server user for proper access</li>
+</ul>
+</ol>
+<br>
+
+</header>
+<p style="font-size:20px;">Now have a look at an <b>example:</b></p>
+<br>
+<br>
+
+<img src="chown.png">
+
+
+    </body>
+
+
+    </body>
+</html>
